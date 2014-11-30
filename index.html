@@ -32,6 +32,7 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-36621684-1', 'auto');
+    ga('require', 'displayfeatures');
     ga('send', 'pageview');
   </script>
   <!-- END Google Analytics -->
@@ -44,7 +45,7 @@
       <h1>We WISHLIST you a merry christmas.</h1>
       <h3>ことしもやってきたウィッシュリストプレゼント交換会2014</h3>
       <div class="btn-wrapper">
-        <a href="https://docs.google.com/spreadsheets/d/1d2hBQaulMERQaYIw39O_9bN8tu9lgiVpNmwYas_zh7g/edit?usp=sharing" class="btn btn-large">参加する</a>
+        <a href="https://docs.google.com/spreadsheets/d/1d2hBQaulMERQaYIw39O_9bN8tu9lgiVpNmwYas_zh7g/edit?usp=sharing" class="btn btn-large" onClick="ga('send', 'event', 'join', 'Click');">参加する</a>
       </div>
     </header>
     <div class="section">
@@ -75,7 +76,7 @@
         <img src="http://static.tumblr.com/xlsgtjb/mmZndl3sh/twitter.svg" width="18px">
         ツイート
       </a>
-      <a href="http://www.facebook.com/sharer.php?u=http://sanographix.github.io/wishlist-2014" class="btn btn-fb" onClick="ga('send', 'event', 'share-fb', 'Click', '{Permalink}');">
+      <a href="http://www.facebook.com/sharer.php?u=http://sanographix.github.io/wishlist-2014" class="btn btn-fb" onClick="ga('send', 'event', 'share-fb', 'Click');">
         <img src="http://static.tumblr.com/xlsgtjb/dB1ndl3rn/facebook.svg" width="18px">
         シェア
       </a>
